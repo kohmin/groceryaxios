@@ -13,7 +13,7 @@
 </template>
 
 <script>
-
+//Added comments
 import database from '../firebase.js'
 export default {
 
