@@ -25,7 +25,7 @@ export default{
     methods:{
     
     fetchData : function(){
-        axios.get('http://data.gov.sg/api/action/datastore_search?resource_id=552b8662-3cbc-48c0-9fbb-abdc07fb377a').then(response=>{
+        axios.get('https://data.gov.sg/api/action/datastore_search?resource_id=552b8662-3cbc-48c0-9fbb-abdc07fb377a').then(response=>{
         this.results=response.data.result.records
         console.log(response.data)
         var categories = {
